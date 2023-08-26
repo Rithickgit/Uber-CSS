@@ -1,0 +1,668 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.navbar{
+    height: 64px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.h7{
+    height: 36px;
+    width: 64px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+.h8{
+    height: 36px;
+    width: 74px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    position: relative;
+    right: 120px;
+}
+
+.h5{
+    font-size: 0.9rem !important;
+    position: relative;
+    left: 260px;
+    top: 5px;
+
+}
+.h6{
+    position: relative;
+    left: 130px;
+    top: 5px;
+}
+.h7{
+    position: relative;
+    left: 10px;
+}
+.n1{
+    position: relative;
+    left: 150px;
+    top: 5px;
+}
+.n2{
+    position: relative;
+    left: 20px;
+    top: 5px;
+
+}
+.n3{
+    position: relative;
+    right: 100px;
+    top: 5px;
+}
+.n4{
+    position: relative;
+    right: 220px;
+    top: 5px;
+}
+
+.n1{
+    background-color: transparent;
+}
+.n1:hover{
+ background-color: grey;
+}
+
+/*heropage*/
+
+.heropage{
+    height: 643px;
+    width: 100%;
+background-image: url(hero\ page.webp);
+background-size: cover;
+}
+/*boxes*/
+
+
+.boxs{
+    height:121px ;
+    width: 576px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 60px;
+    left: 150px;
+
+}
+.box1{
+    height: 120px;
+    width: 105px;
+    display: flex;
+    color: black;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+   
+}
+.box2{
+    height: 120px;
+    width: 105px;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+   
+}
+.box3{
+    height: 120px;
+    width: 105px;
+    display: flex;
+    color: black;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 50px;
+
+}
+.boxs2
+{
+    height: 395px;
+    width: 576px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 60px;
+    left: 150px;
+    justify-content: space-evenly;
+}
+.req{
+    color: black;
+    height: 64px;
+    width: 480px;
+    font-size: 52px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.bar1{
+    border: none;
+    background-color: #f6f6f6;
+    height: 52px;
+    width: 480px;
+    padding: 11px 33px 11px 41px;
+    margin-left: 30px;
+}
+.bar2{
+    border: none;
+    background-color: #f6f6f6;
+    height: 52px;
+    width: 480px;
+    padding: 11px 33px 11px 41px;
+    margin-left: 30px;
+    position: relative;
+    bottom: 20px;
+}
+.co1{
+    height: 48px;
+    width: 148px;
+    background-color: #000000;
+    border-radius: 0.7rem;
+    margin-left: 40px;
+    font-weight: bold;
+}
+.co2{
+    height: 48px;
+    width: 183px;
+    background-color: #eeeeee;
+    border-radius: 0.7rem;
+    margin-left: 35%;
+    color: black;
+    font-weight: bold;
+   position: relative;
+   bottom: 60px;
+border: none;
+}
+.i1{
+    height: 24px !important;
+    width: 24px !important;
+    position: relative;
+    bottom: 10px;
+}
+
+/* container boxes*/
+
+.container{
+    height: 512px;
+    width: 100%;
+    
+}
+.c1{
+    height: 44px;
+    color: #333333;
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 20px;    
+}
+.b1{
+    height: 198px;
+    width: 558px;
+    background-color: #ffffff;
+    margin-top: 70px;
+    margin-left: 70px;
+    display: flex;
+   
+}
+.b1-text{
+    color: #000000;
+    font-size: 24px;
+    height: 32px;
+    width: 312px;
+    font-weight: bold;
+    position: relative;
+    left: 80px;
+    top: 20px;
+
+
+}
+.b1-text1{
+    color: #000000;
+    height: 71px;
+    width: 312px;
+    position: relative;
+    top: 60px;
+    right: 120px;
+    
+}
+.b1logo{
+    height: 150px;
+    width: 150px;
+}
+.b1-logo{
+    height: 150px;
+    width: 150px;
+    background-image: url(b1.webp);
+    background-size: cover;
+    position: relative;
+    top: 20px;   
+    left: 20px; 
+}
+/*c2*/
+
+.c2{
+    height: 44px;
+    color: #333333;
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 20px;    
+}
+.b2{
+    height: 198px;
+    width: 558px;
+    background-color: #ffffff;
+    margin-top: 70px;
+    margin-left: 70px;
+    display: flex;
+   
+}
+.b2-text{
+    color: #000000;
+    font-size: 24px;
+    height: 32px;
+    width: 312px;
+    font-weight: bold;
+    position: relative;
+    left: 80px;
+    top: 20px;
+
+
+}
+.b2-text1{
+    color: #000000;
+    height: 71px;
+    width: 312px;
+    position: relative;
+    top: 60px;
+    right: 120px;
+    
+}
+.b2logo{
+    height: 150px;
+    width: 150px;
+}
+.b2-logo{
+    height: 150px;
+    width: 150px;
+    background-image: url(b3.webp);
+    background-size: cover;
+    position: relative;
+    top: 20px;   
+    left: 20px; 
+}
+
+/*c3*/
+
+.c3{
+    height: 44px;
+    color: #333333;
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 20px;  
+    
+}
+.b3{
+    height: 198px;
+    width: 558px;
+    background-color: #ffffff;
+    margin-top: 70px;
+    margin-left: 70px;
+    display: flex;
+    position: relative;
+    left: 50%;
+    bottom: 550px;  
+   
+}
+.b3-text{
+    color: #000000;
+    font-size: 24px;
+    height: 32px;
+    width: 312px;
+    font-weight: bold;
+    position: relative;
+    left: 80px;
+    top: 20px;
+
+
+}
+.b3-text1{
+    color: #000000;
+    height: 71px;
+    width: 312px;
+    position: relative;
+    top: 60px;
+    right: 120px;
+    
+}
+.b3logo{
+    height: 150px;
+    width: 150px;
+}
+.b3-logo{
+    height: 150px;
+    width: 150px;
+    background-image: url(b2.webp);
+    background-size: cover;
+    position: relative;
+    top: 20px;   
+    left: 20px; 
+}
+
+/*c4*/
+
+.c4{
+    height: 44px;
+    color: #333333;
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 20px;    
+}
+.b4{
+    height: 198px;
+    width: 558px;
+    background-color: #ffffff;
+    margin-top: 70px;
+    margin-left: 70px;
+    display: flex;
+    position: relative;
+    left: 50%;
+    bottom: 550px;  
+    
+   
+}
+.b4-text{
+    color: #000000;
+    font-size: 24px;
+    height: 32px;
+    width: 312px;
+    font-weight: bold;
+    position: relative;
+    left: 80px;
+    top: 20px;
+
+
+}
+.b4-text1{
+    color: #000000;
+    height: 71px;
+    width: 312px;
+    position: relative;
+    top: 60px;
+    right: 120px;
+    
+}
+.b4logo{
+    height: 150px;
+    width: 150px;
+}
+.b4-logo{
+    height: 150px;
+    width: 150px;
+    background-image: url(b4.webp);
+    background-size: cover;
+    position: relative;
+    top: 20px;   
+  left: 20px; 
+}
+/*about section*/
+
+.about{
+    height: 320px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    left: 5%;
+   
+  
+}
+.a1{
+    height: 148px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+}
+.a1-text{
+    height: 24px;
+    width: 100%;
+    color: #333333;
+    font-weight: bold;
+}
+.a1-mt{
+    height:48px;
+    color: black;
+
+}
+.a1-l{
+    position: relative;
+    top: 10px;
+    color: black;
+
+}
+
+/* box2 section*/
+
+.a2{
+    height: 148px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-left: 20px;
+}
+.a2-text{
+    height: 24px;
+    width: 100%;
+    color: #333333;
+    font-weight: bold;
+}
+.a2-mt{
+    height:48px;
+    color: black;
+
+}
+.a2-l{
+    position: relative;
+    top: 10px;
+    color: black;
+
+}
+
+/* box3 section*/
+
+.a3{
+    height: 148px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-left: 2rem;
+    
+}
+.a3-text{
+    height: 24px;
+    width: 100%;
+    color: #333333;
+    font-weight: bold;
+}
+.a3-mt{
+    height:48px;
+    color: black;
+
+}
+.a3-l{
+    position: relative;
+    top: 10px;
+    color: black;
+
+}
+
+/*apps panel*/
+
+.apps{
+     height: 406px;
+     width: 100%;
+    
+}
+.apps-t{
+    color: black;
+    height: 74px;
+    width: 100%;
+    font-size: 36px;
+    position: relative;
+    top: 60px;
+    left:150px;
+    font-weight: bold;
+}
+.apps-box1{
+    height: 198px;
+    width: 558px;
+    display: flex;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    background-color: white;
+    align-items: center;
+
+}
+.apps-logo1{
+    height: 150px;
+    width: 150px;
+    background-image: url(qr1.png);
+   
+    position: relative;
+    left: 100px;
+    
+}
+.apps1-text{
+  
+    font: 36px;
+    color: #000000;
+    position: relative;
+   left: 170px;
+    top: 40px;
+    font-weight: bold;
+    width: 500px;
+
+}
+.apps1-text1{
+    color: #000000;
+    position: relative;
+    left: 170px;
+    top: 40px;
+    
+}
+
+
+.apps-box2{
+    height: 198px;
+    width: 558px;
+    display: flex;
+    position: relative;
+    left: 430px;
+    background-color: white;
+    align-items: center;
+
+}
+.apps-logo2{
+    height: 150px;
+    width: 150px;
+    background-image: url(qr1.png);
+    position: relative;
+    left: 80px;
+    
+}
+.apps2-text{
+  
+    font: 36px;
+    color: #000000;
+    position: relative;
+   left: 170px;
+    top: 40px;
+    font-weight: bold;
+    width: 500px;
+
+}
+.apps2-text2{
+    color: #000000;
+    position: relative;
+    left: 170px;
+    top: 40px;
+    
+}
+
+/*footer*/
+
+.finalbar{
+    height: 190px;
+    width: 1500px;
+    background-color: black;
+  margin-top: 170px;
+  display: flex;
+  flex-direction: column;
+}
+
+h3{
+    margin-left: 150px;
+   padding-top: 50px ;
+}
+h5{
+    margin-left: 150px;
+}
+.footer-panel{
+    height: 400px;
+    width: 1500px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+li{
+    height: 20px;
+    font-size: 0.97rem;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.u1{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.u2{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.u3{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.u4{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.ul3{
+    margin-bottom: 120px;
+}
+.ul4{
+    margin-bottom: 120px;
+}
